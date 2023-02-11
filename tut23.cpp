@@ -8,7 +8,10 @@ class Shop
     int counter;
 
 public:
-    void initCounter(void) { counter = 0; }
+    void initCounter(void) 
+    {
+         counter = 0; 
+    }
     void setPrice(void);
     void displayPrice(void);
 };
